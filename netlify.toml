@@ -1,5 +1,5 @@
 [build]
-  command = "npx quartz build"
+  command = "chmod +x node_modules/.bin/quartz && npx --yes quartz build"
   publish = "public"
 
 [build.environment]
