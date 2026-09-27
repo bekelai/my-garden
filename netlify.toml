@@ -1,5 +1,5 @@
 [build]
-  command = "chmod +x node_modules/.bin/quartz && npx quartz plugin install && npx quartz build"
+  command = "npm install && chmod +x node_modules/.bin/quartz && npx quartz plugin install && npx quartz build"
   publish = "public"
 
 [build.environment]
