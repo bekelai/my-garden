@@ -1,6 +1,6 @@
 [build]
-  command = "chmod +x node_modules/.bin/quartz && npx --yes quartz build"
+  command = "chmod +x node_modules/.bin/quartz && npx quartz plugin install && npx quartz build"
   publish = "public"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "24"
